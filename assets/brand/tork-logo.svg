@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 546 166" role="img" aria-labelledby="tork-title">
+  <title id="tork-title">Tork Car Center</title>
+  <defs>
+    <!-- Metal vermelho do "TORK": brilho no topo, corpo Vermelho Tork, sombra Brasa -->
+    <linearGradient id="tork-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF6A6A"/>
+      <stop offset=".18" stop-color="#F0383C"/>
+      <stop offset=".5" stop-color="#D0262A"/>
+      <stop offset=".52" stop-color="#B51C22"/>
+      <stop offset="1" stop-color="#7E1015"/>
+    </linearGradient>
+    <linearGradient id="tork-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF9A9A" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#FF4A4F" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#5A0A0E" stop-opacity=".6"/>
+    </linearGradient>
+    <!-- Linha do Horizonte -->
+    <linearGradient id="tork-horizon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF2A2F" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#FF2A2F"/>
+      <stop offset=".75" stop-color="#FF2A2F"/>
+      <stop offset="1" stop-color="#FF2A2F" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="tork-glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FF2A2F" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FF2A2F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- TORK: letras geométricas pesadas com cantos chanfrados, inclinadas 12° como no original -->
+  <g transform="translate(29 8) skewX(-12)" fill="url(#tork-metal)" stroke="url(#tork-edge)" stroke-width="1.5" fill-rule="evenodd">
+    <path d="M0 0 H112 V26 H69 V92 H43 V26 H0 Z"/>
+    <path d="M150 0 H218 L240 22 V70 L218 92 H150 L128 70 V22 Z M162 26 L154 34 V58 L162 66 H206 L214 58 V34 L206 26 Z"/>
+    <path d="M256 0 H346 L368 20 V40 L352 54 L370 92 H342 L327 62 H282 V92 H256 Z M282 24 V38 H338 L342 34 V28 L338 24 Z"/>
+    <path d="M384 0 H410 V36 L470 0 H508 L436 45 L508 92 H470 L410 54 V92 H384 Z"/>
+  </g>
+
+  <!-- Linha do Horizonte com brilho -->
+  <ellipse cx="273" cy="119" rx="220" ry="7" fill="url(#tork-glow)"/>
+  <rect x="24" y="118" width="498" height="2.4" fill="url(#tork-horizon)"/>
+
+  <!-- CAR CENTER: traço fino, largo e espaçado -->
+  <g transform="translate(58 137) skewX(-12) scale(.74)" fill="none" stroke="#FFFFFF" stroke-width="4.6" stroke-linejoin="round" stroke-linecap="round" class="tork-sub">
+    <path d="M44 4.5 Q42 0 35 0 H11 Q0 0 0 11 V15 Q0 26 11 26 H35 Q42 26 44 21.5"/>
+    <path transform="translate(64 0)" d="M0 26 L18 2 Q22 -2.5 26 2 L44 26 M9 17 H35"/>
+    <path transform="translate(128 0)" d="M0 26 V0 H35 Q44 0 44 7 Q44 14 35 14 H0 M26 14 L44 26"/>
+    <path transform="translate(226 0)" d="M44 4.5 Q42 0 35 0 H11 Q0 0 0 11 V15 Q0 26 11 26 H35 Q42 26 44 21.5"/>
+    <path transform="translate(290 0)" d="M44 0 H0 V26 H44 M0 13 H38"/>
+    <path transform="translate(354 0)" d="M0 26 V0 L44 26 V0"/>
+    <path transform="translate(418 0)" d="M0 0 H44 M22 0 V26"/>
+    <path transform="translate(482 0)" d="M44 0 H0 V26 H44 M0 13 H38"/>
+    <path transform="translate(546 0)" d="M0 26 V0 H35 Q44 0 44 7 Q44 14 35 14 H0 M26 14 L44 26"/>
+  </g>
+</svg>

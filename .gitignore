@@ -1,0 +1,10 @@
+# PNGs originais do Higgsfield (≈86 MB) — o site usa os JPGs otimizados em assets/img/
+assets/img/originais/
+
+# Configuração local do Claude Code
+.claude/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
