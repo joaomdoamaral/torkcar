@@ -29,6 +29,7 @@ index.html
 css/styles.css
 js/main.js
 assets/brand/   logo (SVG) e favicon
-assets/img/     fotos otimizadas (JPG)
+assets/img/     fotos otimizadas (JPG) usadas no site
+assets/img/originais/  PNGs originais gerados no Higgsfield (alta resolução)
 DESIGN.md       design system
 ```
